@@ -26,25 +26,25 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
-    ```c
-    #include <stdio.h>
-    int main()
-    {
-        printf("Integer Literal = %d\n", 10);
-        printf("Size of Integer Literal = %zu bytes\n\n", sizeof(10));
-    
-        printf("Float Literal = %f\n", 3.14);
-        printf("Size of Float Literal = %zu bytes\n\n", sizeof(3.14));
-    
-        printf("Character Literal = %c\n", 'A');
-        printf("Size of Character Literal = %zu bytes\n\n", sizeof('A'));
-    
-        printf("String Literal = %s\n", "Hello C");
-        printf("Size of String Literal = %zu bytes\n", sizeof("Hello C"));
-    
-        return 0;
-    }
-    ```
+```c
+#include <stdio.h>
+int main()
+{
+    printf("Integer Literal = %d\n", 10);
+    printf("Size of Integer Literal = %zu bytes\n\n", sizeof(10));
+
+    printf("Float Literal = %f\n", 3.14);
+    printf("Size of Float Literal = %zu bytes\n\n", sizeof(3.14));
+
+    printf("Character Literal = %c\n", 'A');
+    printf("Size of Character Literal = %zu bytes\n\n", sizeof('A'));
+
+    printf("String Literal = %s\n", "Hello C");
+    printf("Size of String Literal = %zu bytes\n", sizeof("Hello C"));
+
+    return 0;
+}
+```
 # Output:
 <img width="458" height="458" alt="image" src="https://github.com/user-attachments/assets/3078505d-4dd8-4ff9-835b-a549a3aad78e" />
 
