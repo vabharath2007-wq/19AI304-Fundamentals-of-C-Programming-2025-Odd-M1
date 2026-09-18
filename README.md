@@ -26,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+    ```c
     #include <stdio.h>
     int main()
     {
@@ -43,6 +44,7 @@ To build a C program that prints integer, float,character, and string literals o
     
         return 0;
     }
+    ```
 # Output:
 <img width="458" height="458" alt="image" src="https://github.com/user-attachments/assets/3078505d-4dd8-4ff9-835b-a549a3aad78e" />
 
@@ -76,6 +78,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+    ```c
     #include <stdio.h>
     #define PI 3.14
     int main()
@@ -87,6 +90,7 @@ Thus, the program was implemented and executed successfully, and the required ou
     
         return 0;
     }
+    ```
 # Output:
 <img width="612" height="252" alt="image" src="https://github.com/user-attachments/assets/6ff28635-ea27-4bb3-b2a1-5c605b4cc5af" />
 
@@ -113,6 +117,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+    ```c
     #include <stdio.h>
     int main()
     {
@@ -128,6 +133,7 @@ Thus, the program was implemented and executed successfully, and the required ou
     
         return 0;
     }
+    ```
 # Output:
 <img width="518" height="260" alt="image" src="https://github.com/user-attachments/assets/8c5186bb-0d04-403c-b78c-ae86603b1b67" />
 
@@ -170,6 +176,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+    ```c
     #include <stdio.h>
     int main()
     {
@@ -195,6 +202,7 @@ Thus, the program was implemented and executed successfully, and the required ou
     
         return 0;
     }
+    ```
 # Output:
 <img width="412" height="630" alt="image" src="https://github.com/user-attachments/assets/e995e621-8d2c-4631-8985-98040045b496" />
 
@@ -242,6 +250,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+    ```c
     #include <stdio.h>
     int main()
     {
@@ -261,6 +270,7 @@ Thus, the program was implemented and executed successfully, and the required ou
     
         return 0;
     }
+    ```
 # Output:
 <img width="472" height="311" alt="image" src="https://github.com/user-attachments/assets/62155183-696e-4755-be7c-7d9bee3daef0" />
 
