@@ -78,19 +78,19 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
-    ```c
-    #include <stdio.h>
-    #define PI 3.14
-    int main()
-    {
-        const int MAX = 100;
-    
-        printf("Macro Constant PI = %.2f\n", PI);
-        printf("Constant Variable MAX = %d\n", MAX);
-    
-        return 0;
-    }
-    ```
+```c
+#include <stdio.h>
+#define PI 3.14
+int main()
+{
+    const int MAX = 100;
+
+    printf("Macro Constant PI = %.2f\n", PI);
+    printf("Constant Variable MAX = %d\n", MAX);
+
+    return 0;
+}
+```
 # Output:
 <img width="612" height="252" alt="image" src="https://github.com/user-attachments/assets/6ff28635-ea27-4bb3-b2a1-5c605b4cc5af" />
 
@@ -117,23 +117,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
-    ```c
-    #include <stdio.h>
-    int main()
-    {
-        int num = 25;
-        float f = 12.5f;
-        double d = 123.456;
-        char ch = 'A';
-    
-        printf("Integer Value = %d\n", num);
-        printf("Float Value = %.2f\n", f);
-        printf("Double Value = %lf\n", d);
-        printf("Character Value = %c\n", ch);
-    
-        return 0;
-    }
-    ```
+```c
+#include <stdio.h>
+int main()
+{
+    int num = 25;
+    float f = 12.5f;
+    double d = 123.456;
+    char ch = 'A';
+
+    printf("Integer Value = %d\n", num);
+    printf("Float Value = %.2f\n", f);
+    printf("Double Value = %lf\n", d);
+    printf("Character Value = %c\n", ch);
+
+    return 0;
+}
+```
 # Output:
 <img width="518" height="260" alt="image" src="https://github.com/user-attachments/assets/8c5186bb-0d04-403c-b78c-ae86603b1b67" />
 
@@ -176,33 +176,33 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
-    ```c
-    #include <stdio.h>
-    int main()
-    {
-        int a, b;
-    
-        printf("Enter two integers: ");
-        scanf("%d %d", &a, &b);
-    
-        printf("\nArithmetic Operations\n");
-        printf("Addition = %d\n", a + b);
-        printf("Subtraction = %d\n", a - b);
-        printf("Multiplication = %d\n", a * b);
-        printf("Division = %d\n", a / b);
-        printf("Remainder = %d\n", a % b);
-    
-        printf("\nBitwise Operations\n");
-        printf("AND = %d\n", a & b);
-        printf("OR = %d\n", a | b);
-        printf("XOR = %d\n", a ^ b);
-        printf("Left Shift (a << 1) = %d\n", a << 1);
-        printf("Right Shift (a >> 1) = %d\n", a >> 1);
-        printf("NOT of a = %d\n", ~a);
-    
-        return 0;
-    }
-    ```
+```c
+#include <stdio.h>
+int main()
+{
+    int a, b;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("\nArithmetic Operations\n");
+    printf("Addition = %d\n", a + b);
+    printf("Subtraction = %d\n", a - b);
+    printf("Multiplication = %d\n", a * b);
+    printf("Division = %d\n", a / b);
+    printf("Remainder = %d\n", a % b);
+
+    printf("\nBitwise Operations\n");
+    printf("AND = %d\n", a & b);
+    printf("OR = %d\n", a | b);
+    printf("XOR = %d\n", a ^ b);
+    printf("Left Shift (a << 1) = %d\n", a << 1);
+    printf("Right Shift (a >> 1) = %d\n", a >> 1);
+    printf("NOT of a = %d\n", ~a);
+
+    return 0;
+}
+```
 # Output:
 <img width="412" height="630" alt="image" src="https://github.com/user-attachments/assets/e995e621-8d2c-4631-8985-98040045b496" />
 
@@ -250,27 +250,27 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
-    ```c
-    #include <stdio.h>
-    int main()
-    {
-        char ch;
-    
-        printf("Enter a character: ");
-        scanf("%c", &ch);
-    
-        (ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||
-         ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
-            ? printf("%c is a Vowel\n", ch)
-            : ((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z'))
-                ? printf("%c is a Consonant\n", ch)
-                : (ch>='0'&&ch<='9')
-                    ? printf("%c is a Digit\n", ch)
-                    : printf("%c is a Special Symbol\n", ch);
-    
-        return 0;
-    }
-    ```
+```c
+#include <stdio.h>
+int main()
+{
+    char ch;
+
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    (ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||
+     ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+        ? printf("%c is a Vowel\n", ch)
+        : ((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z'))
+            ? printf("%c is a Consonant\n", ch)
+            : (ch>='0'&&ch<='9')
+                ? printf("%c is a Digit\n", ch)
+                : printf("%c is a Special Symbol\n", ch);
+
+    return 0;
+}
+```
 # Output:
 <img width="472" height="311" alt="image" src="https://github.com/user-attachments/assets/62155183-696e-4755-be7c-7d9bee3daef0" />
 
