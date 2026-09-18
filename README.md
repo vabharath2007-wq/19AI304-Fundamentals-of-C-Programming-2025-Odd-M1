@@ -44,7 +44,7 @@ To build a C program that prints integer, float,character, and string literals o
     
         return 0;
     }
-    ```text
+    ```
 # Output:
 <img width="458" height="458" alt="image" src="https://github.com/user-attachments/assets/3078505d-4dd8-4ff9-835b-a549a3aad78e" />
 
